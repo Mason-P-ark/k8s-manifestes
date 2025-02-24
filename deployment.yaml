@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: ghcr.io/<YOUR_GITHUB_USERNAME>/node-app:latest
+          image: ghcr.io/mason-p-ark/node-app:latest
           ports:
             - containerPort: 3000
